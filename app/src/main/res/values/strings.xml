@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">La Radio di Biagi</string>
+    <string name="app_shortcut">La Radio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FMatfyz</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_update">Update now</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="short_play">Dot time (ms)</string>
+    <string name="long_play">Dash time (ms)</string>
+    <string name="short_pause">Character pause (ms)</string>
+    <string name="long_pause">Word pause (ms)</string>
+    <string name="add_val">+</string>
+    <string name="sub_val">-</string>
+    <string name="notification_message">Ascoltando…</string>
+    <string name="channel_name">fmatfyz_notif</string>
+    <string name="channel_description">FMatfyz notification channel</string>
+    <string name="worker_stopped_button">Inizia ad ascoltare</string>
+    <string name="worker_running_button">Smetti di ascoltare</string>
+    <string name="worker_stopped_text">La radio è spenta</string>
+    <string name="worker_running_text">La radio è accesa</string>
+    <string name="drawer_debug">DEBUG</string>
+    <string name="drawer_reference">Riferimento</string>
+    <string name="drawer_notes">Gli Appunti</string>
+    <string name="drawer_home">Pagina Principale</string>
+    <string name="button_dot">.</string>
+    <string name="button_dash">–</string>
+    <string name="button_slash">/</string>
+    <string name="symbol_pause">Symbol pause (ms)</string>
+    <string name="warning_pause">Warning pause (ms)</string>
+    <string name="debug_note">(Interval ratios are based on international standards)</string>
+    <string name="msg_subscribed">Il successo :)</string>
+    <string name="msg_subscribe_failed">Il fallimento :(</string>
+    <string name="msg_unsubscribe_failed">Il fallimento :(</string>
+    <string name="msg_unsubscribed">Il successo :)</string>
+    <string name="home_toggleWarning">La commutazione può richiedere un momento.\nEssere pazientare.</string>
+    <string name="home_ringWarning">Assicurati che il tuo volume sia alzato.</string>
+    <string name="notification_sent">Messagio ricevuto a</string>
+    <string name="notification_sent_title">Nuovo messagio</string>
+</resources>

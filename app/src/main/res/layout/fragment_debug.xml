@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".DebugFragment">
+
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_3"
+            app:layout_constraintTop_toBottomOf="@+id/down_b_4"
+            app:layout_constraintBottom_toTopOf="@+id/down_b_sym"
+            app:layout_constraintEnd_toStartOf="@+id/long_play_val" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_sym"
+            app:layout_constraintTop_toBottomOf="@+id/down_b_3"
+            app:layout_constraintBottom_toTopOf="@+id/down_b_2"
+            app:layout_constraintEnd_toStartOf="@+id/symbol_pause_val" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_4"
+            app:layout_constraintTop_toBottomOf="@+id/down_b_warn"
+            app:layout_constraintBottom_toTopOf="@+id/down_b_3" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/short_play_val" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_warn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/down_b_4" app:layout_constraintEnd_toStartOf="@+id/warning_val"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_4"
+            app:layout_constraintTop_toBottomOf="@+id/up_b_warn"
+            app:layout_constraintBottom_toTopOf="@+id/up_b_3"
+            app:layout_constraintStart_toEndOf="@+id/short_play_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.495"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_warn"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/warning_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintBottom_toTopOf="@+id/up_b_4"
+            android:layout_marginBottom="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/short_play_val"
+            app:layout_constraintTop_toBottomOf="@+id/warning_val"
+            app:layout_constraintBottom_toTopOf="@+id/long_play_val" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/long_play_val"
+            app:layout_constraintTop_toBottomOf="@+id/short_play_val"
+            app:layout_constraintBottom_toTopOf="@+id/symbol_pause_val" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/short_pause_val"
+            app:layout_constraintTop_toBottomOf="@+id/symbol_pause_val"
+            app:layout_constraintBottom_toTopOf="@+id/long_pause_val" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/long_pause_val"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/short_pause_val"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="@string/short_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" android:textStyle="bold"
+            app:layout_constraintVertical_chainStyle="spread"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/short_play_val"
+            app:layout_constraintVertical_bias="1.0" app:layout_constraintTop_toBottomOf="@+id/warning_val"/>
+    <TextView
+            android:text="@string/warning_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_marginTop="52dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp" android:textStyle="bold"
+            app:layout_constraintVertical_chainStyle="spread"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/warning_val"
+            app:layout_constraintVertical_bias="1.0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/long_play_val"
+            android:text="@string/long_play" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/short_play_val" app:layout_constraintVertical_bias="1.0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" app:layout_constraintBottom_toTopOf="@+id/symbol_pause_val"
+            android:text="@string/symbol_pause" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/long_play_val" app:layout_constraintVertical_bias="1.0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/short_pause_val"
+            android:text="@string/short_pause" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/symbol_pause_val" app:layout_constraintVertical_bias="1.0"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/textView10"
+            android:textStyle="bold" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/long_pause_val"
+            android:text="@string/long_pause" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/short_pause_val" app:layout_constraintVertical_bias="1.0"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/up_b_2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/long_pause_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_1"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/down_b_2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/long_pause_val" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"/>
+    <Button
+            android:text="@string/sub_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/down_b_2"
+            app:layout_constraintTop_toBottomOf="@+id/down_b_sym"
+            app:layout_constraintBottom_toTopOf="@+id/down_b_1"
+            app:layout_constraintEnd_toStartOf="@+id/short_pause_val" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_2"
+            app:layout_constraintTop_toBottomOf="@+id/up_b_sym"
+            app:layout_constraintBottom_toTopOf="@+id/up_b_1" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/short_pause_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_3"
+            app:layout_constraintTop_toBottomOf="@+id/up_b_4"
+            app:layout_constraintBottom_toTopOf="@+id/up_b_sym" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/long_play_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="@string/add_val"
+            android:layout_width="41dp"
+            android:layout_height="36dp"
+            android:id="@+id/up_b_sym"
+            app:layout_constraintTop_toBottomOf="@+id/up_b_3"
+            app:layout_constraintBottom_toTopOf="@+id/up_b_2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toEndOf="@+id/symbol_pause_val" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/symbol_pause_val"
+            app:layout_constraintTop_toBottomOf="@+id/long_play_val"
+            app:layout_constraintBottom_toTopOf="@+id/short_pause_val" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/warning_val"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/short_play_val" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="@string/debug_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/long_pause_val" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+</android.support.constraint.ConstraintLayout>
