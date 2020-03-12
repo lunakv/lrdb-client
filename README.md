@@ -1,7 +1,6 @@
 # La Radio di Biagi ![](https://lunakv.cz/icons/radio/favicon-32x32.png "Icon")
 
-## Goal
-The goal of this project was to create a web server transmitting messages and an Android app replaying those messages on subscribed devices in morse code. This would serve as a modern equivalent of the wireless telegraphs of old. It was comissioned for a summer camp for young in 2019.
+The goal of this project was to create a web server transmitting messages and an Android app replaying those messages on subscribed devices in morse code. This would serve as a modern equivalent of the wireless telegraph transmitters/receivers of old. It was comissioned for a summer camp in 2019.
 
 This repository contains the client portion of the project as well as general documentation. Go to the [lrdb-server](https://github.com/lunakv/lrdb-server) repository to learn specifically about the project's server side.
 
