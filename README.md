@@ -1,4 +1,4 @@
-# La Radio di Biagi
+# La Radio di Biagi ![](https://lunakv.cz/icons/radio/favicon-32x32.png "Icon")
 
 ## Goal
 The goal of this project was to create a web server transmitting messages and an Android app replaying those messages on subscribed devices in morse code. This would serve as a modern equivalent of the wireless telegraphs of old. It was comissioned for a summer camp for young in 2019.
